@@ -15,11 +15,7 @@ const countBs = (myStr) => {
 console.log(countBs(inString))
 
 // Step 2 - countChar(param 1: string, param 2: char )
-<<<<<<< HEAD
 const countChar = (inStr, inChar) => {
-=======
-const countChar = (inStr, inChar = 'a') => {
->>>>>>> cdeae6ddd90525c8b9615abc7f6d9b585206c1ca
     let charCount = 0;
     for (let i = 0; i < inStr.length; i++) {
         if (inStr[i].toUpperCase() == inChar.toUpperCase()) {
